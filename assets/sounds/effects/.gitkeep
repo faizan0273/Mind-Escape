@@ -1,0 +1,6 @@
+# Add sound files here:
+# - message.mp3   (notification when message arrives)
+# - morse_dot.mp3 (short beep for Morse dot)
+# - morse_dash.mp3 (long beep for Morse dash)
+# - door_open.mp3 (correct choice / door opening)
+# - failure.mp3   (wrong choice / death)

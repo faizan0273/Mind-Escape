@@ -1,0 +1,29 @@
+name: cipher_escape
+description: "Cipher Escape - A cipher puzzle escape game."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  shared_preferences: ^2.3.3
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/levels/levels_easy.json
+    - assets/levels/levels_medium.json
+    - assets/levels/levels_hard.json
+    - assets/sounds/effects/
